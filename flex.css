@@ -1,4 +1,10 @@
 .yes {
-    display: ruby;
+    display: flex;
     background-color: lightgreen;
+}
+
+.item {
+    height: 100px;
+    width: 100px;
+    border: solid 2px gray;
 }
