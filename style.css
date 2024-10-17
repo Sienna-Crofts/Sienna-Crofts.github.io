@@ -4,16 +4,19 @@ body {
     background-color: black;
 }
 
-#myTitle {
-    text-align: center;
-    color: white;
-    font-weight: bold;
-}
-
 #myTitleShadow {
     color: darkgray;
     text-align: center;
     text-size-adjust: inherit;
     margin-left: 10px;
     font-weight: bold;
+    position: absolute; bottom: 410px; right: 815px;
+}
+
+#myTitle {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    position: absolute; bottom: 410px; right: 820px;
+    
 }
