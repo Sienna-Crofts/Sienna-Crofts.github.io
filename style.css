@@ -1,9 +1,18 @@
-h1 {
-    color: aquamarine;
-}
-
 body {
     background-image: url("/images/Earth_Background.png");
     background-size: cover;
     background-color: black;
+}
+
+#myTitle {
+    text-align: center;
+    color: white;
+    font-family: 'Copperplate Gothuc Bold';
+}
+
+#myTitleShadow {
+    color: darkgray;
+    text-align: center;
+    text-size-adjust: inherit;
+    margin: 0 0 0 10px;
 }
