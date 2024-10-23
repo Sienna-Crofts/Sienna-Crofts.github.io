@@ -1,22 +1,109 @@
-body {
-    background-image: url("/images/Earth_Background.png");
-    background-size: cover;
-    background-color: black;
+html {
+    height: 100%;
 }
 
-#myTitleShadow {
-    color: darkgray;
+body {
+    background-image: url("/images/Earth_Background.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: black;
+    height: 100%;
+    margin: 0;
+}
+
+.titleContainer {
+    /* border: red solid 2px; */
+    display: flex;
     text-align: center;
-    text-size-adjust: inherit;
-    margin-left: 10px;
-    font-weight: bold;
-    position: absolute; bottom: 410px; right: 815px;
+    justify-content: center;
+}
+
+.arvo-bold {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 #myTitle {
     text-align: center;
     color: white;
     font-weight: bold;
-    position: absolute; bottom: 410px; right: 820px;
-    
+    bottom: 330px;
+    font-size: 108px;
+    text-shadow: 10px 10px 5px rgb(39, 39, 39);
+}
+
+.searchContainer {
+    margin: auto;
+    padding: 0px;
+    width: 40%;
+    display: flex;
+    border-radius: 30px;
+
+    height: 50px;
+    bottom: 320px;
+    border: 4px red solid;
+}
+
+.searchBar {
+    border: 1px white solid;
+    font-size: 28px;
+    padding: 10px;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    flex-wrap: nowrap;
+    flex-grow: 10;
+}
+
+.searchIcon {
+    background-image: url("searchIcon.png");
+    /* border-width: 4px; */
+    /* border-style: solid; */
+    /* z-index: 10; */
+    /* border-color: green; */
+    /* height: 50px;
+    flex-grow: 0; */
+    background-color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.searchIcon img {
+    width: 45px;
+
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Copperplate_Gothic_Bold.woff);
+}
+
+h1 {
+    font-family: myFirstFont;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Copperplate_Gothic_Bold.woff);
+    font-weight: bold;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    /* body {
+        background-color: red;
+    } */
+
+    #myTitle {
+        text-align: center;
+        color: darkslategrey;
+        font-weight: bold;
+        bottom: 330px;
+        font-size: 70px;
+        text-shadow: 10px 10px 5px rgb(39, 39, 39);
+    }
+
+
 }
