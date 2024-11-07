@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-image: url("/images/Earth_Background.png");
+    background-image: url("images/Earth_Background.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
