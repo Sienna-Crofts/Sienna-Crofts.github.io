@@ -73,10 +73,13 @@ body {
     border-radius: 15px;
     color: white;
     background-color: black;
+    margin-top: 20px 1000px 0 20px;
+    padding: 0;
 }
 
 .description {
     opacity: 1;
+    margin: 5px;
 }
 
 @font-face {
