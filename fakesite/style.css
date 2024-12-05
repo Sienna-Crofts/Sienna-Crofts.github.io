@@ -13,6 +13,8 @@ body {
     margin: 0;
 }
 
+
+
 .titleContainer {
     display: flex;
     text-align: center;
@@ -34,6 +36,10 @@ body {
     text-shadow: 10px 10px 5px rgb(39, 39, 39);
 }
 
+input {
+    font-size: 28px;
+}
+
 .searchContainer {
     margin: auto;
     padding: 0px;
@@ -42,18 +48,20 @@ body {
     border-radius: 30px;
     height: 50px;
     bottom: 320px;
-    border: 4px red solid;
+    border: 4px rgba(102, 142, 253, 0.473) solid;
+    background-color: white;
 }
 
 .searchBar {
-    border: 1px white solid;
     font-size: 28px;
-    padding: 10px;
-    background-color: white;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    flex-wrap: nowrap;
+    margin-left: 25px;
     flex-grow: 10;
+    border: 0;
+}
+
+.searchBar:focus {
+    border: 0;
+    outline-width: 0;
 }
 
 .searchIcon {
@@ -61,25 +69,26 @@ body {
     background-color: white;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+    margin-right: 10px;
 }
 
 .searchIcon img {
     width: 45px;
-
 }
 
 .descriptionContainer {
-    border: solid blueviolet 2px;
     border-radius: 15px;
     color: white;
-    background-color: black;
-    margin-top: 20px 1000px 0 20px;
-    padding: 0;
+    background-color: rgba(158, 158, 158, 0.24);
+    margin: 20px 1500px 0 20px;
+    padding: 5px 200px 5px 5px;
+    border: 2px solid rgba(0, 0, 255, 0.425);
 }
 
 .description {
     opacity: 1;
     margin: 5px;
+    font-size: 28px;
 }
 
 @font-face {
